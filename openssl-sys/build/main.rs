@@ -286,6 +286,7 @@ See rust-openssl documentation for more information:
             (3, 7, 1) => ('3', '7', '1'),
             (3, 7, _) => ('3', '7', 'x'),
             (3, 8, 0) => ('3', '8', '0'),
+            (3, 8, 1) => ('3', '8', '1'),
             _ => version_error(),
         };
 
